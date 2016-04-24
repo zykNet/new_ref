@@ -3,19 +3,6 @@ import time,os
 import socket
 
 
-old = time.time()
-passed = 0
-def v():
-	global passed
-	global old
-	passed = time.time() - old
-	#100 = v	* passed
-	v = 100/passed
-	old = time.time()
-	return v*3.6
-s='494f4d4b4b4c1e4c1b49464f484e4e481b471d4b1e4c4f47474b4b1a46494c1a'
-def test(s):
-	pass
 
 def HttpResponse(header,whtml):
 	os.chdir(r'C:\Users\Administrator\Downloads\KCon-master')
