@@ -8,7 +8,8 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-    <script src="/JavaScript/test.js"></script>
+    <script tpye="text/javascript" src="javascripts/main.js"></script>
+	<script tpye="text/javascript" src="javascripts/test.js"></script>
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -17,12 +18,9 @@
   </head>
 
   <body>
+ 
     <header>
-      <div class="inner">
-        <img id="moveE" src="1_b.gif">
-        window.onload=function () {
-    move_on(document.getElementById("moveE"),600,1,0,1);
-}
+      <div class="inner">       
         <h1>New ref</h1>
         <h2>for test push problem</h2>
         <a href="https://github.com/zykNet/new_ref" class="button"><small>View project on</small> GitHub</a>
@@ -57,7 +55,13 @@
 
 <p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
         </section>
-
+ <img id="moveE" src="images/1_b.gif">
+   <script >window.onload=function () {
+		var moveE = document.getElementById("moveE");
+		var _width=500-moveE.offsetWidth;
+		var _height=400-moveE.offsetHeight;
+		move_on(moveE,200,1,0,100);
+		}</script>
         <aside id="sidebar">
           <a href="https://github.com/zykNet/new_ref/zipball/master" class="button">
             <small>Download</small>

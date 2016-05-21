@@ -23,3 +23,4 @@ function move_on(element,far,to,cishu,time) {
         }
     },time);
 }
+// http://www.saber.xn--6qq986b3xl/js%E5%81%9A%E7%9A%84%E5%85%83%E7%B4%A0%E4%B8%8D%E9%97%B4%E6%96%AD%E6%9D%A5%E5%9B%9E%E7%A7%BB%E5%8A%A8%E7%9A%84%E6%95%88%E6%9E%9C.html#comment-3050
